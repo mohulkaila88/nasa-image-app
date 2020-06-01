@@ -2,6 +2,8 @@ if(process.env.NODE_ENV !== 'production') {
     require('dotenv').config()
 }
 
+const PORT = process.env.PORT || 3000;
+
 const axios = require('axios')
 const moment = require('moment');
 
@@ -33,6 +35,6 @@ function getData (date, temp){
 }
  
 
-app.listen(3000, () => {
+app.listen(PORT, () => {
     console.log('Server Started');
 })
