@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box
+}
+
+body {
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 80%;
+}
+
+.image-container {
+    width: 50%;
+    margin: auto;
+}
+
+#nasa-image{
+    width: 500px;
+    height: 500px;
+}
